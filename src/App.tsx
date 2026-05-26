@@ -10,6 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Navbar from "./components/navbar/nav";
 
 export default function HeroSection() {
   const [formData, setFormData] = useState({
@@ -29,35 +30,11 @@ export default function HeroSection() {
     <>
       <section className="relative min-h-screen ">
         {/* NAV */}
-        <nav className="absolute top-0 left-0 right-0 z-10 flex items-center justify-between px-16 py-6">
-          <div className="text-white font-bold text-xl">
-            Safe<span className="text-[#C8922A]">Step</span> Florida
-          </div>
-          <ul className="flex gap-8 list-none">
-            <li>
-              <a href="#" className="text-white/80 text-sm hover:text-white">
-                Walk-in Tubs
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white/80 text-sm hover:text-white">
-                Safety Features
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-white/80 text-sm hover:text-white">
-                Financing
-              </a>
-            </li>
-          </ul>
-          <div className="text-white font-semibold text-sm">
-            📞 (800) 555-SAFE
-          </div>
-        </nav>
+       <Navbar/>
 
         {/* LAYOUT */}
         <div
-          className="lg:grid min-h-screen lg:grid-cols-[1fr_420px]  pr-20 "
+          className="lg:grid min-h-screen lg:grid-cols-[1fr_420px] justify-center md:pr-20 pb-20  "
           style={{
             background:
               "linear-gradient(to right, rgba(10,34,60,0.88) 0%, rgba(10,34,60,0.65) 45%, rgba(10,34,60,0.15) 100%)",
@@ -131,15 +108,15 @@ export default function HeroSection() {
 
           {/* RIGHT — Form */}
 
-          <div className="relative flex  mt-28">
+          <div className="relative flex md:mt-28 ">
             <img
               src="src/assets/walkintubs.png"
               alt=""
-              className="absolute inset-0 hover:scale-120 duration-900 transition-transform"
+              className="absolute inset-0 lg:hover:scale-120 duration-900 transition-transform"
               style={{}}
             />
             <div>
-            <div className="flex items-center gap-3 border-t border-[#1A7A6E] mt-80 pt-5">
+            <div className="flex items-center gap-3 mt-110 md:mt-72 md:pt-14 px-14 md:px-0">
               {[
                 { num: "12K+", label: "FL Homes" },
                 { num: "4.9★", label: "Rating" },

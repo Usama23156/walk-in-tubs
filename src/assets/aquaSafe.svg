@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="520" height="200">
+
+  <!-- Background warm cream -->
+  <rect width="520" height="200" fill="#F0EBE3"/>
+
+  <!-- LEFT gold rule -->
+  <line x1="92" y1="46" x2="213" y2="46" stroke="#C8922A" stroke-width="2" stroke-linecap="round"/>
+  <!-- RIGHT gold rule -->
+  <line x1="307" y1="46" x2="428" y2="46" stroke="#C8922A" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Outer circle gold -->
+  <circle cx="260" cy="46" r="21" fill="none" stroke="#C8922A" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="260" cy="37" r="5.8" fill="none" stroke="#1A7A6E" stroke-width="2.2"/>
+  <!-- Shoulders arc -->
+  <path d="M248 55 Q260 48 272 55" fill="none" stroke="#1A7A6E" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Aqua navy -->
+  <text x="80" y="132"
+    font-family="Georgia, 'Book Antiqua', Palatino, serif"
+    font-size="80" font-weight="bold" font-style="italic"
+    fill="#0B2240" letter-spacing="-0.5">Aqua</text>
+
+  <!-- Safe gold -->
+  <text x="270" y="132"
+    font-family="Georgia, 'Book Antiqua', Palatino, serif"
+    font-size="80" font-weight="bold" font-style="italic"
+    fill="#C8922A" letter-spacing="-0.5">Safe</text>
+
+  <!-- Tagline -->
+  <text x="260" y="168"
+    text-anchor="middle"
+    font-family="'Gill Sans', 'Gill Sans MT', Calibri, Arial, sans-serif"
+    font-size="13.5" font-weight="500"
+    fill="#7A8FA6" letter-spacing="5.5">WALK-IN TUBS · FLORIDA</text>
+
+</svg>
