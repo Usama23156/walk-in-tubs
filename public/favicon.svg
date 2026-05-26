@@ -1,21 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-  <circle cx="256" cy="256" r="230" fill="#1c5165" />
-
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 60,375 Q 256,465 452,375" stroke="#4fc3f7" stroke-width="36"/>
     
-    <path d="M 105,340 C 105,375 135,375 165,375 L 345,375 C 375,375 405,375 405,340 L 405,215 L 355,215 L 355,335 C 355,345 345,350 330,350 L 255,350 L 255,240 L 175,240 L 175,215 L 105,215 Z" 
-          stroke="#e2b616" stroke-width="34"/>
+    <path d="M 70,220 L 70,330 C 70,390 110,410 160,410 L 320,410 C 370,410 405,390 405,330 L 405,240" 
+          stroke="#e2b616" stroke-width="38" />
     
-    <path d="M 105,215 L 105,115 C 105,85 145,85 145,115" stroke="#e2b616" stroke-width="32"/>
+    <path d="M 105,170 L 205,170" stroke="#4fc3f7" stroke-width="36" />
+    <path d="M 155,170 L 155,340" stroke="#4fc3f7" stroke-width="36" />
     
-    <path d="M 380,215 L 380,150 C 380,115 340,115 340,150" stroke="#e2b616" stroke-width="32"/>
-    <path d="M 355,160 L 400,160" stroke="#e2b616" stroke-width="26"/>
-    <path d="M 395,140 L 395,175" stroke="#e2b616" stroke-width="22"/>
+    <path d="M 330,220 L 330,340" stroke="#4fc3f7" stroke-width="34" />
+    <path d="M 330,220 C 375,220 405,250 375,290 C 355,310 330,310 330,310" stroke="#4fc3f7" stroke-width="34" />
     
-    <path d="M 270,300 L 315,300 C 330,300 340,290 348,265 L 356,230" stroke="#e2b616" stroke-width="32"/>
-    <path d="M 290,300 L 290,330" stroke="#e2b616" stroke-width="26"/>
+    <circle cx="345" cy="155" r="22" fill="#4fc3f7" stroke="none" />
     
-    <path d="M 220,270 L 220,310" stroke="#e2b616" stroke-width="32"/>
   </g>
 </svg>
