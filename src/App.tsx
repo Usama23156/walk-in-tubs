@@ -117,7 +117,7 @@ export default function HeroSection() {
               style={{}}
             />
             <div>
-            <div className="flex items-center gap-3 mt-110 md:mt-72 md:pt-14 px-14 md:px-0">
+            <div className="flex items-center gap-3 mt-110 md:mt-72 md:pt-14 px-5 md:px-0">
               {[
                 { num: "12K+", label: "FL Homes" },
                 { num: "4.9★", label: "Rating" },
