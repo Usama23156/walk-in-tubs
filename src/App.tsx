@@ -11,6 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import Navbar from "./components/navbar/nav";
+import walkInTubs from "@/assets/walkintubs.png"
 
 export default function HeroSection() {
   const [formData, setFormData] = useState({
@@ -110,7 +111,7 @@ export default function HeroSection() {
 
           <div className="relative flex md:mt-28 ">
             <img
-              src="src/assets/walkintubs.png"
+              src={walkInTubs}
               alt=""
               className="absolute inset-0 lg:hover:scale-120 duration-900 transition-transform"
               style={{}}
